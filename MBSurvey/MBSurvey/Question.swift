@@ -27,7 +27,7 @@ class Question: NSObject, Unboxable {
     // For now no points
   }
   
-  init(question: String, answers: [Answer], correctAnswers: Set<Answer>, type: QuestionType, correctAnswerDescription: String?, id: Int?, points: Double) {
+  init(question: String, answers: [Answer], correctAnswers: Set<Answer>, type: QuestionType, id: Int?, points: Double) {
     self.question = question
     self.answers = answers
     self.type = type
@@ -40,7 +40,7 @@ class Question: NSObject, Unboxable {
   }
   
   convenience init(question: String, answers: [Answer], correctAnswers: Set<Answer>, id: Int?) {
-    self.init(question: question, answers: answers, correctAnswers: correctAnswers, type: .singleAnswer, correctAnswerDescription: nil, id: id, points: 0.0)
+    self.init(question: question, answers: answers, correctAnswers: correctAnswers, type: .singleAnswer, id: id, points: 0.0)
   }
   
   func select(answer: Answer) {

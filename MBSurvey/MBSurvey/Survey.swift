@@ -36,7 +36,7 @@ class Survey: NSObject, Unboxable {
     answeredQuestions = [Question]()
     id = try unboxer.unbox(key: "id")
     questionSequel = [QuestionSequelType]()
-    for question in questions {
+    for _ in questions {
       questionSequel.append(.question)
     }
     if questionSequel.count > 0 {

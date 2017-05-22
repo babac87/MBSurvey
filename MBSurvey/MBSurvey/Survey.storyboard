@@ -29,11 +29,11 @@
                         <viewControllerLayoutGuide type="bottom" id="w9S-I9-ppM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TKY-hZ-Xab">
-                        <rect key="frame" x="0.0" y="0.0" width="1029" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="686" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="GGT-W7-SE3">
-                                <rect key="frame" x="0.0" y="0.0" width="1029" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="686" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="NwM-ok-qNl">
                                     <size key="itemSize" width="343" height="667"/>
@@ -76,13 +76,13 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mC4-pA-v0Y">
-                                                            <rect key="frame" x="8" y="131" width="295" height="23.5"/>
+                                                            <rect key="frame" x="8" y="131" width="295" height="24"/>
                                                             <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
                                                             <color key="textColor" red="0.27058823529999998" green="0.27058823529999998" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xEj-qs-6dS">
-                                                            <rect key="frame" x="8" y="162.5" width="295" height="237.5"/>
+                                                            <rect key="frame" x="8" y="163" width="295" height="237"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <prototypes>
                                                                 <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AnswerCell" id="kqR-ck-Trs" customClass="AnswerTableViewCell" customModule="MBSurvey" customModuleProvider="target">
@@ -214,147 +214,8 @@
                                             <outlet property="whiteCircleView" destination="DBP-Ll-3OQ" id="vVH-1s-UzX"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DescriptionCell" id="bfx-ie-WqI" customClass="DescriptionCollectionViewCell" customModule="MBSurvey" customModuleProvider="target">
-                                        <rect key="frame" x="343" y="0.0" width="343" height="667"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="667"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HD9-5b-SSk">
-                                                    <rect key="frame" x="16" y="211" width="311" height="448"/>
-                                                    <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uy6-4l-UPU">
-                                                            <rect key="frame" x="67" y="-88" width="177" height="177"/>
-                                                            <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="building" translatesAutoresizingMaskIntoConstraints="NO" id="Crg-CW-4kc">
-                                                                    <rect key="frame" x="5" y="5" width="167" height="167"/>
-                                                                </imageView>
-                                                            </subviews>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <constraints>
-                                                                <constraint firstItem="Crg-CW-4kc" firstAttribute="leading" secondItem="Uy6-4l-UPU" secondAttribute="leading" constant="5" id="NLH-jJ-h8J"/>
-                                                                <constraint firstAttribute="trailing" secondItem="Crg-CW-4kc" secondAttribute="trailing" constant="5" id="QnX-sp-XC6"/>
-                                                                <constraint firstItem="Crg-CW-4kc" firstAttribute="top" secondItem="Uy6-4l-UPU" secondAttribute="top" constant="5" id="lXL-t8-s8T"/>
-                                                                <constraint firstAttribute="bottom" secondItem="Crg-CW-4kc" secondAttribute="bottom" constant="5" id="vuh-QG-ZrA"/>
-                                                                <constraint firstAttribute="width" secondItem="Uy6-4l-UPU" secondAttribute="height" multiplier="1:1" id="yhz-8o-Zop"/>
-                                                            </constraints>
-                                                        </view>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quiz_right_icon" translatesAutoresizingMaskIntoConstraints="NO" id="5YN-PM-Ik7">
-                                                            <rect key="frame" x="117" y="50" width="77" height="77"/>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" secondItem="5YN-PM-Ik7" secondAttribute="height" multiplier="1:1" id="Ndh-Ux-2CK"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mb7-dq-sqO">
-                                                            <rect key="frame" x="8" y="131" width="295" height="23.5"/>
-                                                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
-                                                            <color key="textColor" red="0.27058823529999998" green="0.27058823529999998" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMT-Jd-l3P">
-                                                            <rect key="frame" x="8" y="162.5" width="295" height="237.5"/>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                            <color key="textColor" red="0.27058823529999998" green="0.27058823529999998" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                        </textView>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kxZ-Fi-PHl" userLabel="Vertical Line">
-                                                            <rect key="frame" x="155" y="408" width="1" height="40"/>
-                                                            <color key="backgroundColor" red="0.83529411760000005" green="0.83529411760000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="1" id="4U0-hL-k4Y"/>
-                                                            </constraints>
-                                                        </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yf0-EF-fpg" userLabel="Horizontal Line">
-                                                            <rect key="frame" x="0.0" y="407" width="311" height="1"/>
-                                                            <color key="backgroundColor" red="0.83529411760000005" green="0.83529411760000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="1" id="XBB-Vo-Sup"/>
-                                                            </constraints>
-                                                        </view>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rCL-bT-A55">
-                                                            <rect key="frame" x="0.0" y="408" width="311" height="40"/>
-                                                            <subviews>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoG-3y-bnl">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="155.5" height="40"/>
-                                                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
-                                                                    <state key="normal" title="Cancel">
-                                                                        <color key="titleColor" red="0.29803921570000003" green="0.74901960779999999" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    </state>
-                                                                    <connections>
-                                                                        <action selector="leftButtonPressed:" destination="bfx-ie-WqI" eventType="touchUpInside" id="NRv-BM-jLy"/>
-                                                                    </connections>
-                                                                </button>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBD-He-ggj">
-                                                                    <rect key="frame" x="155.5" y="0.0" width="155.5" height="40"/>
-                                                                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
-                                                                    <state key="normal" title="Next">
-                                                                        <color key="titleColor" red="0.29803921570000003" green="0.74901960779999999" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    </state>
-                                                                    <state key="disabled">
-                                                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                                    </state>
-                                                                    <connections>
-                                                                        <action selector="rightButtonPressed:" destination="bfx-ie-WqI" eventType="touchUpInside" id="DQO-eP-XHN"/>
-                                                                    </connections>
-                                                                </button>
-                                                            </subviews>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="40" id="OGS-NR-Hy0"/>
-                                                            </constraints>
-                                                        </stackView>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstItem="QMT-Jd-l3P" firstAttribute="top" secondItem="Mb7-dq-sqO" secondAttribute="bottom" constant="8" id="09k-tz-evg"/>
-                                                        <constraint firstAttribute="bottom" secondItem="rCL-bT-A55" secondAttribute="bottom" id="0xA-kf-st6"/>
-                                                        <constraint firstItem="rCL-bT-A55" firstAttribute="top" secondItem="Yf0-EF-fpg" secondAttribute="bottom" id="2vX-Sc-f2g"/>
-                                                        <constraint firstItem="Uy6-4l-UPU" firstAttribute="trailing" secondItem="5YN-PM-Ik7" secondAttribute="trailing" constant="50" id="556-na-bNZ"/>
-                                                        <constraint firstItem="Uy6-4l-UPU" firstAttribute="centerY" secondItem="HD9-5b-SSk" secondAttribute="top" id="5kr-ph-5hC"/>
-                                                        <constraint firstItem="5YN-PM-Ik7" firstAttribute="leading" secondItem="Uy6-4l-UPU" secondAttribute="leading" constant="50" id="7u0-fs-gm5"/>
-                                                        <constraint firstItem="5YN-PM-Ik7" firstAttribute="centerY" secondItem="Uy6-4l-UPU" secondAttribute="bottom" id="B3s-sy-SZb"/>
-                                                        <constraint firstItem="rCL-bT-A55" firstAttribute="centerX" secondItem="HD9-5b-SSk" secondAttribute="centerX" id="BEp-fV-OX4"/>
-                                                        <constraint firstItem="kxZ-Fi-PHl" firstAttribute="centerX" secondItem="rCL-bT-A55" secondAttribute="centerX" id="Fpw-oM-UUt"/>
-                                                        <constraint firstItem="Yf0-EF-fpg" firstAttribute="centerX" secondItem="rCL-bT-A55" secondAttribute="centerX" id="GRL-Zu-oBC"/>
-                                                        <constraint firstItem="QMT-Jd-l3P" firstAttribute="leading" secondItem="HD9-5b-SSk" secondAttribute="leading" constant="8" id="J1M-21-H9p"/>
-                                                        <constraint firstItem="Mb7-dq-sqO" firstAttribute="top" secondItem="5YN-PM-Ik7" secondAttribute="bottom" constant="4" id="KH1-O7-SB2"/>
-                                                        <constraint firstItem="Yf0-EF-fpg" firstAttribute="width" secondItem="rCL-bT-A55" secondAttribute="width" id="Uo9-6U-hW8"/>
-                                                        <constraint firstItem="rCL-bT-A55" firstAttribute="top" secondItem="QMT-Jd-l3P" secondAttribute="bottom" constant="8" id="Xbb-ZI-etU"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Uy6-4l-UPU" secondAttribute="trailing" constant="67" id="Zcz-Dk-2iy"/>
-                                                        <constraint firstAttribute="width" secondItem="HD9-5b-SSk" secondAttribute="height" multiplier="328:473" id="bMg-o5-PeQ"/>
-                                                        <constraint firstItem="Uy6-4l-UPU" firstAttribute="leading" secondItem="HD9-5b-SSk" secondAttribute="leading" constant="67" id="eO8-1k-vBa"/>
-                                                        <constraint firstItem="kxZ-Fi-PHl" firstAttribute="bottom" secondItem="rCL-bT-A55" secondAttribute="bottom" id="ffE-zJ-OW4"/>
-                                                        <constraint firstAttribute="trailing" secondItem="QMT-Jd-l3P" secondAttribute="trailing" constant="8" id="lMB-MY-lPf"/>
-                                                        <constraint firstItem="Mb7-dq-sqO" firstAttribute="leading" secondItem="HD9-5b-SSk" secondAttribute="leading" constant="8" id="lgF-EG-jla"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Mb7-dq-sqO" secondAttribute="trailing" constant="8" id="p9z-nt-0B4"/>
-                                                        <constraint firstItem="kxZ-Fi-PHl" firstAttribute="height" secondItem="rCL-bT-A55" secondAttribute="height" id="rGV-Yd-PDP"/>
-                                                        <constraint firstItem="rCL-bT-A55" firstAttribute="width" secondItem="HD9-5b-SSk" secondAttribute="width" id="vrt-Ar-swm"/>
-                                                    </constraints>
-                                                </view>
-                                            </subviews>
-                                        </view>
-                                        <color key="backgroundColor" red="0.70980392160000005" green="0.70980392160000005" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailingMargin" secondItem="HD9-5b-SSk" secondAttribute="trailing" constant="8" id="BMd-jP-9z8"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="HD9-5b-SSk" secondAttribute="bottom" id="JKM-rc-yDr"/>
-                                            <constraint firstItem="HD9-5b-SSk" firstAttribute="leading" secondItem="bfx-ie-WqI" secondAttribute="leadingMargin" constant="8" id="d9j-lt-I6h"/>
-                                        </constraints>
-                                        <connections>
-                                            <outlet property="correctImageView" destination="5YN-PM-Ik7" id="cKl-1l-WEo"/>
-                                            <outlet property="descriptionTextView" destination="QMT-Jd-l3P" id="h6X-gN-VHu"/>
-                                            <outlet property="imageView" destination="Crg-CW-4kc" id="Pky-Yo-k7f"/>
-                                            <outlet property="leftButton" destination="EoG-3y-bnl" id="FnR-0j-YBk"/>
-                                            <outlet property="rightButton" destination="aBD-He-ggj" id="I4M-rx-4Pw"/>
-                                            <outlet property="topLabel" destination="Mb7-dq-sqO" id="cFF-8I-zJ9"/>
-                                            <outlet property="whiteBackgroundView" destination="HD9-5b-SSk" id="Cgx-Qe-Gs1"/>
-                                            <outlet property="whiteCircleView" destination="Uy6-4l-UPU" id="Klb-LV-ERN"/>
-                                        </connections>
-                                    </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ResultsCell" id="QN7-ex-Qqu" customClass="ResultsCollectionViewCell" customModule="MBSurvey" customModuleProvider="target">
-                                        <rect key="frame" x="686" y="0.0" width="343" height="667"/>
+                                        <rect key="frame" x="343" y="0.0" width="343" height="667"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="667"/>
@@ -380,13 +241,13 @@
                                                             </constraints>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBJ-Ki-5bW">
-                                                            <rect key="frame" x="70" y="92" width="177" height="23.5"/>
+                                                            <rect key="frame" x="70" y="92" width="177" height="24"/>
                                                             <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
                                                             <color key="textColor" red="0.27058823529999998" green="0.27058823529999998" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kdP-Od-fuI">
-                                                            <rect key="frame" x="8" y="123.5" width="295" height="276.5"/>
+                                                            <rect key="frame" x="8" y="124" width="295" height="276"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <prototypes>
                                                                 <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="checkmark" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ResultCell" textLabel="128-8M-ejg" style="IBUITableViewCellStyleDefault" id="TyY-Ye-ZlL">
@@ -502,7 +363,7 @@
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="1029" height="667"/>
+                    <size key="freeformSize" width="686" height="667"/>
                     <connections>
                         <outlet property="collectionView" destination="GGT-W7-SE3" id="kEE-ES-Kv3"/>
                     </connections>
@@ -516,7 +377,6 @@
         <image name="answerbutton_icon" width="28" height="28"/>
         <image name="building" width="250" height="250"/>
         <image name="quiz_bulb_icon" width="87" height="87"/>
-        <image name="quiz_right_icon" width="87" height="87"/>
         <image name="quiz_stats_icon" width="180" height="180"/>
     </resources>
 </document>

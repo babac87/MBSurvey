@@ -10,6 +10,5 @@ import Foundation
 
 enum QuestionSequelType {
   case question
-  case description
   case result
 }

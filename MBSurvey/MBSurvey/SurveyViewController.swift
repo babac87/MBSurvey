@@ -44,14 +44,6 @@ extension SurveyViewController: UICollectionViewDataSource, UICollectionViewDele
       cell.tableView.reloadData()
       
       return cell
-    case .description:
-      let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DescriptionCell", for: indexPath) as! DescriptionCollectionViewCell
-      cell.rightButton.isEnabled = true
-      let currentQuestion = survey.currentQuestion!
-      cell.topLabel.text = currentQuestion.question
-      cell.delegate = self
-      
-      return cell
     case .result:
       let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ResultsCell", for: indexPath) as! ResultsCollectionViewCell
       cell.rightButton.isEnabled = true
@@ -147,8 +139,6 @@ extension SurveyViewController: NavigationButtonsCollectionViewCellDelegate {
     case .question:
       survey.questionAnswered()
       survey.nextQuestion()
-    case .description:
-      break
     case .result:
       survey.questionAnswered()
     }

@@ -15,7 +15,6 @@
 		EEBD7FCF1ED3091A00945232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FCD1ED3091A00945232 /* LaunchScreen.storyboard */; };
 		EEBD7FE81ED30A2200945232 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FD61ED30A2200945232 /* Answer.swift */; };
 		EEBD7FE91ED30A2200945232 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FD71ED30A2200945232 /* AnswerTableViewCell.swift */; };
-		EEBD7FEA1ED30A2200945232 /* DescriptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FD81ED30A2200945232 /* DescriptionCollectionViewCell.swift */; };
 		EEBD7FEB1ED30A2200945232 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FD91ED30A2200945232 /* Extensions.swift */; };
 		EEBD7FEC1ED30A2200945232 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FDA1ED30A2200945232 /* Lato-Bold.ttf */; };
 		EEBD7FED1ED30A2200945232 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FDB1ED30A2200945232 /* Lato-Regular.ttf */; };
@@ -45,7 +44,6 @@
 		EEBD7FD01ED3091A00945232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEBD7FD61ED30A2200945232 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		EEBD7FD71ED30A2200945232 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
-		EEBD7FD81ED30A2200945232 /* DescriptionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCollectionViewCell.swift; sourceTree = "<group>"; };
 		EEBD7FD91ED30A2200945232 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EEBD7FDA1ED30A2200945232 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		EEBD7FDB1ED30A2200945232 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				EEBD7FD71ED30A2200945232 /* AnswerTableViewCell.swift */,
-				EEBD7FD81ED30A2200945232 /* DescriptionCollectionViewCell.swift */,
 				EEBD7FDE1ED30A2200945232 /* QuestionCollectionViewCell.swift */,
 				EEBD7FE41ED30A2200945232 /* SurveyCollectionViewCell.swift */,
 				EEBD7FE71ED30A2200945232 /* ResultsCollectionViewCell.swift */,
@@ -297,7 +294,6 @@
 				EEBD7FF71ED30A2200945232 /* SurveyViewController.swift in Sources */,
 				EEBD7FEB1ED30A2200945232 /* Extensions.swift in Sources */,
 				EEBD7FF61ED30A2200945232 /* SurveyParser.swift in Sources */,
-				EEBD7FEA1ED30A2200945232 /* DescriptionCollectionViewCell.swift in Sources */,
 				EEBD7FF51ED30A2200945232 /* SurveyCollectionViewCell.swift in Sources */,
 				EEBD7FC71ED3091A00945232 /* ViewController.swift in Sources */,
 				EEBD7FEF1ED30A2200945232 /* QuestionCollectionViewCell.swift in Sources */,
