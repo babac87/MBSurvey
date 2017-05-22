@@ -1,0 +1,4 @@
+target 'MBSurvey' do
+  use_frameworks!
+  pod 'Unbox'
+end

@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DEF8442E66CED1C6E4BE8CF /* Pods_MBSurvey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE222482378A3443DE7B4F6 /* Pods_MBSurvey.framework */; };
 		EEBD7FC51ED3091A00945232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FC41ED3091A00945232 /* AppDelegate.swift */; };
 		EEBD7FC71ED3091A00945232 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FC61ED3091A00945232 /* ViewController.swift */; };
 		EEBD7FCA1ED3091A00945232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FC81ED3091A00945232 /* Main.storyboard */; };
 		EEBD7FCC1ED3091A00945232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FCB1ED3091A00945232 /* Assets.xcassets */; };
 		EEBD7FCF1ED3091A00945232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FCD1ED3091A00945232 /* LaunchScreen.storyboard */; };
+		EEBD7FE81ED30A2200945232 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FD61ED30A2200945232 /* Answer.swift */; };
+		EEBD7FE91ED30A2200945232 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FD71ED30A2200945232 /* AnswerTableViewCell.swift */; };
+		EEBD7FEA1ED30A2200945232 /* DescriptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FD81ED30A2200945232 /* DescriptionCollectionViewCell.swift */; };
+		EEBD7FEB1ED30A2200945232 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FD91ED30A2200945232 /* Extensions.swift */; };
+		EEBD7FEC1ED30A2200945232 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FDA1ED30A2200945232 /* Lato-Bold.ttf */; };
+		EEBD7FED1ED30A2200945232 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FDB1ED30A2200945232 /* Lato-Regular.ttf */; };
+		EEBD7FEE1ED30A2200945232 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FDD1ED30A2200945232 /* Question.swift */; };
+		EEBD7FEF1ED30A2200945232 /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FDE1ED30A2200945232 /* QuestionCollectionViewCell.swift */; };
+		EEBD7FF01ED30A2200945232 /* QuestionSequelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FDF1ED30A2200945232 /* QuestionSequelType.swift */; };
+		EEBD7FF11ED30A2200945232 /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FE01ED30A2200945232 /* QuestionType.swift */; };
+		EEBD7FF21ED30A2200945232 /* Survey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FE11ED30A2200945232 /* Survey.storyboard */; };
+		EEBD7FF31ED30A2200945232 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FE21ED30A2200945232 /* Survey.swift */; };
+		EEBD7FF41ED30A2200945232 /* quiz.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7FE31ED30A2200945232 /* quiz.xcassets */; };
+		EEBD7FF51ED30A2200945232 /* SurveyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FE41ED30A2200945232 /* SurveyCollectionViewCell.swift */; };
+		EEBD7FF61ED30A2200945232 /* SurveyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FE51ED30A2200945232 /* SurveyParser.swift */; };
+		EEBD7FF71ED30A2200945232 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FE61ED30A2200945232 /* SurveyViewController.swift */; };
+		EEBD7FF81ED30A2200945232 /* ResultsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7FE71ED30A2200945232 /* ResultsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EED0EA7ED0CA261C19E8E20 /* Pods-MBSurvey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBSurvey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBSurvey/Pods-MBSurvey.debug.xcconfig"; sourceTree = "<group>"; };
+		984FBC0EA3144648922B24A7 /* Pods-MBSurvey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBSurvey.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBSurvey/Pods-MBSurvey.release.xcconfig"; sourceTree = "<group>"; };
+		BFE222482378A3443DE7B4F6 /* Pods_MBSurvey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBSurvey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBD7FC11ED3091A00945232 /* MBSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBD7FC41ED3091A00945232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEBD7FC61ED3091A00945232 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,24 @@
 		EEBD7FCB1ED3091A00945232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEBD7FCE1ED3091A00945232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEBD7FD01ED3091A00945232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBD7FD61ED30A2200945232 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		EEBD7FD71ED30A2200945232 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
+		EEBD7FD81ED30A2200945232 /* DescriptionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCollectionViewCell.swift; sourceTree = "<group>"; };
+		EEBD7FD91ED30A2200945232 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EEBD7FDA1ED30A2200945232 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		EEBD7FDB1ED30A2200945232 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		EEBD7FDC1ED30A2200945232 /* MBQuiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBQuiz.h; sourceTree = "<group>"; };
+		EEBD7FDD1ED30A2200945232 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		EEBD7FDE1ED30A2200945232 /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		EEBD7FDF1ED30A2200945232 /* QuestionSequelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionSequelType.swift; sourceTree = "<group>"; };
+		EEBD7FE01ED30A2200945232 /* QuestionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
+		EEBD7FE11ED30A2200945232 /* Survey.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Survey.storyboard; sourceTree = "<group>"; };
+		EEBD7FE21ED30A2200945232 /* Survey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		EEBD7FE31ED30A2200945232 /* quiz.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = quiz.xcassets; sourceTree = "<group>"; };
+		EEBD7FE41ED30A2200945232 /* SurveyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EEBD7FE51ED30A2200945232 /* SurveyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyParser.swift; sourceTree = "<group>"; };
+		EEBD7FE61ED30A2200945232 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		EEBD7FE71ED30A2200945232 /* ResultsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +68,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEF8442E66CED1C6E4BE8CF /* Pods_MBSurvey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ED95A26291883685D4009B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFE222482378A3443DE7B4F6 /* Pods_MBSurvey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AAD458E9E5509CF701DA1B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EED0EA7ED0CA261C19E8E20 /* Pods-MBSurvey.debug.xcconfig */,
+				984FBC0EA3144648922B24A7 /* Pods-MBSurvey.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EEBD7FB81ED3091A00945232 = {
 			isa = PBXGroup;
 			children = (
 				EEBD7FC31ED3091A00945232 /* MBSurvey */,
 				EEBD7FC21ED3091A00945232 /* Products */,
+				7AAD458E9E5509CF701DA1B5 /* Pods */,
+				2ED95A26291883685D4009B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +119,50 @@
 				EEBD7FCB1ED3091A00945232 /* Assets.xcassets */,
 				EEBD7FCD1ED3091A00945232 /* LaunchScreen.storyboard */,
 				EEBD7FD01ED3091A00945232 /* Info.plist */,
+				EEBD7FFB1ED30A8900945232 /* Controllers */,
+				EEBD7FFA1ED30A7E00945232 /* Views */,
+				EEBD7FF91ED30A4200945232 /* Models */,
+				EEBD7FDA1ED30A2200945232 /* Lato-Bold.ttf */,
+				EEBD7FDB1ED30A2200945232 /* Lato-Regular.ttf */,
+				EEBD7FDC1ED30A2200945232 /* MBQuiz.h */,
+				EEBD7FE11ED30A2200945232 /* Survey.storyboard */,
+				EEBD7FE31ED30A2200945232 /* quiz.xcassets */,
 			);
 			path = MBSurvey;
+			sourceTree = "<group>";
+		};
+		EEBD7FF91ED30A4200945232 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD7FE21ED30A2200945232 /* Survey.swift */,
+				EEBD7FE51ED30A2200945232 /* SurveyParser.swift */,
+				EEBD7FDD1ED30A2200945232 /* Question.swift */,
+				EEBD7FDF1ED30A2200945232 /* QuestionSequelType.swift */,
+				EEBD7FE01ED30A2200945232 /* QuestionType.swift */,
+				EEBD7FD61ED30A2200945232 /* Answer.swift */,
+				EEBD7FD91ED30A2200945232 /* Extensions.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EEBD7FFA1ED30A7E00945232 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD7FD71ED30A2200945232 /* AnswerTableViewCell.swift */,
+				EEBD7FD81ED30A2200945232 /* DescriptionCollectionViewCell.swift */,
+				EEBD7FDE1ED30A2200945232 /* QuestionCollectionViewCell.swift */,
+				EEBD7FE41ED30A2200945232 /* SurveyCollectionViewCell.swift */,
+				EEBD7FE71ED30A2200945232 /* ResultsCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EEBD7FFB1ED30A8900945232 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD7FE61ED30A2200945232 /* SurveyViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEBD7FD31ED3091A00945232 /* Build configuration list for PBXNativeTarget "MBSurvey" */;
 			buildPhases = (
+				063139D9DDB839D155923B77 /* [CP] Check Pods Manifest.lock */,
 				EEBD7FBD1ED3091A00945232 /* Sources */,
 				EEBD7FBE1ED3091A00945232 /* Frameworks */,
 				EEBD7FBF1ED3091A00945232 /* Resources */,
+				1415F83B4A1CC6446CB67D99 /* [CP] Embed Pods Frameworks */,
+				D98F96296A6F03AA14E75E86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,19 +230,84 @@
 			files = (
 				EEBD7FCF1ED3091A00945232 /* LaunchScreen.storyboard in Resources */,
 				EEBD7FCC1ED3091A00945232 /* Assets.xcassets in Resources */,
+				EEBD7FED1ED30A2200945232 /* Lato-Regular.ttf in Resources */,
 				EEBD7FCA1ED3091A00945232 /* Main.storyboard in Resources */,
+				EEBD7FEC1ED30A2200945232 /* Lato-Bold.ttf in Resources */,
+				EEBD7FF21ED30A2200945232 /* Survey.storyboard in Resources */,
+				EEBD7FF41ED30A2200945232 /* quiz.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		063139D9DDB839D155923B77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1415F83B4A1CC6446CB67D99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBSurvey/Pods-MBSurvey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D98F96296A6F03AA14E75E86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBSurvey/Pods-MBSurvey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEBD7FBD1ED3091A00945232 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBD7FE81ED30A2200945232 /* Answer.swift in Sources */,
+				EEBD7FF71ED30A2200945232 /* SurveyViewController.swift in Sources */,
+				EEBD7FEB1ED30A2200945232 /* Extensions.swift in Sources */,
+				EEBD7FF61ED30A2200945232 /* SurveyParser.swift in Sources */,
+				EEBD7FEA1ED30A2200945232 /* DescriptionCollectionViewCell.swift in Sources */,
+				EEBD7FF51ED30A2200945232 /* SurveyCollectionViewCell.swift in Sources */,
 				EEBD7FC71ED3091A00945232 /* ViewController.swift in Sources */,
+				EEBD7FEF1ED30A2200945232 /* QuestionCollectionViewCell.swift in Sources */,
 				EEBD7FC51ED3091A00945232 /* AppDelegate.swift in Sources */,
+				EEBD7FF01ED30A2200945232 /* QuestionSequelType.swift in Sources */,
+				EEBD7FF31ED30A2200945232 /* Survey.swift in Sources */,
+				EEBD7FEE1ED30A2200945232 /* Question.swift in Sources */,
+				EEBD7FE91ED30A2200945232 /* AnswerTableViewCell.swift in Sources */,
+				EEBD7FF81ED30A2200945232 /* ResultsCollectionViewCell.swift in Sources */,
+				EEBD7FF11ED30A2200945232 /* QuestionType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +428,7 @@
 		};
 		EEBD7FD41ED3091A00945232 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EED0EA7ED0CA261C19E8E20 /* Pods-MBSurvey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MNKXKEGW8X;
@@ -272,6 +442,7 @@
 		};
 		EEBD7FD51ED3091A00945232 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984FBC0EA3144648922B24A7 /* Pods-MBSurvey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MNKXKEGW8X;
@@ -302,6 +473,7 @@
 				EEBD7FD51ED3091A00945232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
